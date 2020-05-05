@@ -9,3 +9,7 @@ Josip Plemelj
 Predsednik države:
 
 Borut Pahor
+
+Predsednik Vlade:
+
+Janez Janša
