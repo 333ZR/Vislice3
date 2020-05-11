@@ -12,7 +12,7 @@ ZMAGA = 'W'
 PORAZ = 'X'
 
 bazen_besed = []
-with open('Vislice/besede.txt') as datoteka_bazena:
+with open('Vislice3/besede.txt') as datoteka_bazena:
     for beseda in datoteka_bazena:
         bazen_besed.append(beseda.strip().lower())
 
@@ -44,7 +44,7 @@ class Igra:
         return len(self.napacne_crke())
 
     def poraz(self):
-        return self.stevilo_napak() > STEVILO_DOVOLJENIH_NAPAK:
+        return self.stevilo_napak() > STEVILO_DOVOLJENIH_NAPAK
 
     def zmaga(self): 
         for c in self.geslo:
@@ -60,7 +60,7 @@ class Igra:
     def pravilni_del_gesla(self):
         trenutno = ''
         for crka in self.geslo:
-            if crke in self.crke:
+            if crka in self.crke:
                 trenutno += crka
             else:
                 trenutno += '_'
