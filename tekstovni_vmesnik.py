@@ -28,7 +28,7 @@ def pozeni_vmesnik():
 
         crka = zahtevaj_vnos()
 
-        #rezultat = trenutna_igra.ugibaj(crka)
+        rezultat = trenutna_igra.ugibaj(crka)
 
         if trenutna_igra.zmaga():
             print(izpis_zmage(trenutna_igra))
